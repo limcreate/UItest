@@ -17,7 +17,7 @@ import android.widget.ProgressBar;
 import android.widget.Toast;
 
 public class MainActivity extends ActionBarActivity {
-	public final String TAG = "Lim---lims";
+	public final String TAG = "Lim---lims------limlll";
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
