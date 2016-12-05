@@ -1,0 +1,52 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="24sp"
+        android:text="@string/hello_world"
+        android:textColor="#ff00ee"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/btn_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Click me!" />
+
+    <EditText
+        android:id="@+id/edit_text_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="sereach 中国人"
+        android:maxLines="2" />
+
+    <ImageView
+        android:id="@+id/img_view_1"
+        android:layout_width="wrap_content"
+        android:layout_height="100sp"
+        android:src="@drawable/rocket_ship2" />
+
+    <ProgressBar
+        android:id="@+id/progress_bar_1"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:max="100" />
+
+    <Button
+        android:id="@+id/btn_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Deleted Alert!!!" />
+
+    <Button
+        android:id="@+id/btn_3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="大量数据操作!!!" />
+</LinearLayout>
